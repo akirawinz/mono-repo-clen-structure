@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "ms-gateway": "apps/ms-gateway"
+    "ms-gateway": "apps/ms-gateway",
+    "ms-users": "apps/ms-users"
   }
 }

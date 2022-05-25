@@ -14,10 +14,10 @@ describe('AppController', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to ms-gateway!"', () => {
+    it('should return "Welcome to ms-users!"', () => {
       const appController = app.get<AppController>(AppController);
       expect(appController.getData()).toEqual({
-        message: 'Welcome to ms-gateway!',
+        message: 'Welcome to ms-users!',
       });
     });
   });

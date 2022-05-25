@@ -14,8 +14,8 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to ms-gateway!"', () => {
-      expect(service.getData()).toEqual({ message: 'Welcome to ms-gateway!' });
+    it('should return "Welcome to ms-users!"', () => {
+      expect(service.getData()).toEqual({ message: 'Welcome to ms-users!' });
     });
   });
 });
